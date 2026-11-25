@@ -1,0 +1,1 @@
+"""Lecteurs de formats : contrat commun lire_fragments(chemin)."""
