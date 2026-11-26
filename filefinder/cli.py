@@ -42,7 +42,7 @@ def main():
     fichiers = scanner_dossier(args.dossier)
 
     if args.extension:
-        fichiers = filtrer_extension(fichiers, args.extension)
+        fichiers = filtrer_extension(fichiers, [args.extension])
 
     if args.nom:
         fichiers = filtrer_nom(
